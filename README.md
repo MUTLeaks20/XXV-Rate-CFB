@@ -12,7 +12,7 @@
 
 ### Completed
 
-* Run calculations against all player stats (including height and weight). Basic filtering (team, position, chem, archtype, ovr). For height and weight, define max values, which will scale against your player data.
+* Run calculations against all player stats (including height and weight). Basic filtering (team, position, chem, archtype, name, ovr). For height and weight, define max values, which will scale against your player data.
 * Basic .fan integration. Double click a player to open the players listing on cfb.fan. Left click one player than right click another to compare.
 * Moderm interface design styilzed to look and feel of game.
 
