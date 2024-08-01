@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\home\\source\\repos\\WpfApp6\\WpfApp6\\WpfApp6\\WpfApp6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC92689-D34B-44DA-8EB3-5DAF85C8DC02}|WpfApp6\\WpfApp6.csproj|c:\\users\\home\\source\\repos\\wpfapp6\\wpfapp6\\wpfapp6\\wpfapp6\\wpfapp6\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CC92689-D34B-44DA-8EB3-5DAF85C8DC02}|WpfApp6\\WpfApp6.csproj|solutionrelative:wpfapp6\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC92689-D34B-44DA-8EB3-5DAF85C8DC02}|WpfApp6\\WpfApp6.csproj|C:\\Users\\home\\source\\repos\\WpfApp6\\WpfApp6\\WpfApp6\\WpfApp6\\wpfapp6\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8CC92689-D34B-44DA-8EB3-5DAF85C8DC02}|WpfApp6\\WpfApp6.csproj|solutionrelative:wpfapp6\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC92689-D34B-44DA-8EB3-5DAF85C8DC02}|WpfApp6\\WpfApp6.csproj|C:\\Users\\home\\source\\repos\\WpfApp6\\WpfApp6\\WpfApp6\\WpfApp6\\wpfapp6\\playerstatsentrywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8CC92689-D34B-44DA-8EB3-5DAF85C8DC02}|WpfApp6\\WpfApp6.csproj|solutionrelative:wpfapp6\\playerstatsentrywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC92689-D34B-44DA-8EB3-5DAF85C8DC02}|WpfApp6\\WpfApp6.csproj|C:\\Users\\home\\source\\repos\\WpfApp6\\WpfApp6\\WpfApp6\\WpfApp6\\wpfapp6\\playerstatsentrywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CC92689-D34B-44DA-8EB3-5DAF85C8DC02}|WpfApp6\\WpfApp6.csproj|solutionrelative:wpfapp6\\playerstatsentrywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\home\\source\\repos\\WpfApp6\\WpfApp6\\WpfApp6\\WpfApp6\\WpfApp6\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp6\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\home\\source\\repos\\WpfApp6\\WpfApp6\\WpfApp6\\WpfApp6\\WpfApp6\\MainWindow.xaml",
+              "RelativeToolTip": "WpfApp6\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-14T05:41:28.461Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\home\\source\\repos\\WpfApp6\\WpfApp6\\WpfApp6\\WpfApp6\\WpfApp6\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp6\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\home\\source\\repos\\WpfApp6\\WpfApp6\\WpfApp6\\WpfApp6\\WpfApp6\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp6\\MainWindow.xaml.cs",
+              "ViewState": "AQIAADgCAAAAAAAAAAAewEgCAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T04:27:58.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerStatsEntryWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\home\\source\\repos\\WpfApp6\\WpfApp6\\WpfApp6\\WpfApp6\\WpfApp6\\PlayerStatsEntryWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp6\\PlayerStatsEntryWindow.xaml",
+              "ToolTip": "C:\\Users\\home\\source\\repos\\WpfApp6\\WpfApp6\\WpfApp6\\WpfApp6\\WpfApp6\\PlayerStatsEntryWindow.xaml",
+              "RelativeToolTip": "WpfApp6\\PlayerStatsEntryWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-17T03:15:19.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerStatsEntryWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\home\\source\\repos\\WpfApp6\\WpfApp6\\WpfApp6\\WpfApp6\\WpfApp6\\PlayerStatsEntryWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp6\\PlayerStatsEntryWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\home\\source\\repos\\WpfApp6\\WpfApp6\\WpfApp6\\WpfApp6\\WpfApp6\\PlayerStatsEntryWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp6\\PlayerStatsEntryWindow.xaml.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAA6wE4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T03:11:07.962Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

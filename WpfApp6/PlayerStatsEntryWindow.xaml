@@ -1,0 +1,219 @@
+﻿<Window x:Class="JsonDataDisplay.PlayerStatsEntryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Enter Player Stats" Height="400" Width="950">
+    <Grid>
+        
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel Margin="10">
+                <!-- Text entry fields for player stats -->
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Speed:" Margin="1"/>
+                    <TextBox x:Name="SpeedTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Acceleration:" Margin="1"/>
+                    <TextBox x:Name="AccelerationTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Agility:" Margin="1"/>
+                    <TextBox x:Name="AgilityTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Strength:" Margin="1"/>
+                    <TextBox x:Name="StrengthTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Awareness:" Margin="1"/>
+                    <TextBox x:Name="AwarenessTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Throw Power:" Margin="1"/>
+                    <TextBox x:Name="ThrowPowerTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Throw Accuracy:" Margin="1"/>
+                    <TextBox x:Name="ThrowAccuracyTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Catch In Traffic:" Margin="1"/>
+                    <TextBox x:Name="CatchInTrafficTextBox" Width="25" Margin="1" Text="0" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Tackle:" Margin="1"/>
+                    <TextBox x:Name="TackleTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Break Tackle:" Margin="1"/>
+                    <TextBox x:Name="BreakTackleTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Kick Power:" Margin="1"/>
+                    <TextBox x:Name="KickPowerTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Ball Carrier Vision:" Margin="1"/>
+                    <TextBox x:Name="BallCarrierVisionTextBox" Width="25" Margin="1" Text="0" />
+
+
+                    <TextBlock Text="Block Shedding:" Margin="1"/>
+                    <TextBox x:Name="BlockSheddingTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Break Sack:" Margin="1"/>
+                    <TextBox x:Name="BreakSackTextBox" Width="25" Margin="1" Text="0" />
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Carrying:" Margin="1"/>
+                    <TextBox x:Name="CarryingTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Catching:" Margin="1"/>
+                    <TextBox x:Name="CatchingTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Change of Direction:" Margin="1"/>
+                    <TextBox x:Name="ChangeOfDirectionTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Deep Route Running:" Margin="1"/>
+                    <TextBox x:Name="DeepRouteRunningTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Deep Throw Accuracy:" Margin="1"/>
+                    <TextBox x:Name="DeepThrowAccuracyTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Finesse Moves:" Margin="1"/>
+                    <TextBox x:Name="FinesseMovesTextBox" Width="25" Margin="1" Text="0" />
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Hit Power:" Margin="1"/>
+                    <TextBox x:Name="HitPowerTextBox" Width="25" Margin="1" Text="0" />
+
+
+                    <TextBlock Text="Impact Blocking:" Margin="1"/>
+                    <TextBox x:Name="ImpactBlockingTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Injury:" Margin="1"/>
+                    <TextBox x:Name="InjuryTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Juke Move:" Margin="1"/>
+                    <TextBox x:Name="JukeMoveTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Jumping:" Margin="1"/>
+                    <TextBox x:Name="JumpingTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Kick Accuracy:" Margin="1"/>
+                    <TextBox x:Name="KickAccuracyTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Kick Return:" Margin="1"/>
+                    <TextBox x:Name="KickReturnTextBox" Width="25" Margin="1" Text="0" />
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Lead Block:" Margin="1"/>
+                    <TextBox x:Name="LeadBlockTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Man Coverage:" Margin="1"/>
+                    <TextBox x:Name="ManCoverageTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Medium Route Running:" Margin="1"/>
+                    <TextBox x:Name="MediumRouteRunningTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Medium Throw Accuracy:" Margin="1"/>
+                    <TextBox x:Name="MediumThrowAccuracyTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Pass Blocking:" Margin="1"/>
+                    <TextBox x:Name="PassBlockingTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Pass Block Strength:" Margin="1"/>
+                    <TextBox x:Name="PassBlockStrengthTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Pass Block Finesse:" Margin="1"/>
+                    <TextBox x:Name="PassBlockFinesseTextBox" Width="25" Margin="1" Text="0" />
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Play Action:" Margin="1"/>
+                    <TextBox x:Name="PlayActionTextBox" Width="25" Margin="1" Text="0" />
+
+
+                    <TextBlock Text="Play Recognition:" Margin="1"/>
+                    <TextBox x:Name="PlayRecognitionTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Power Moves:" Margin="1"/>
+                    <TextBox x:Name="PowerMovesTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Press:" Margin="1"/>
+                    <TextBox x:Name="PressTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Pursuit:" Margin="1"/>
+                    <TextBox x:Name="PursuitTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Release:" Margin="1"/>
+                    <TextBox x:Name="ReleaseTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Route Running:" Margin="1"/>
+                    <TextBox x:Name="RouteRunningTextBox" Width="25" Margin="1" Text="0" />
+                </StackPanel>
+
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Run Block:" Margin="1"/>
+                    <TextBox x:Name="RunBlockTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Run Block Strength:" Margin="1"/>
+                    <TextBox x:Name="RunBlockStrengthTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Run Block Finesse:" Margin="1"/>
+                    <TextBox x:Name="RunBlockFinesseTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Short Route Running:" Margin="1"/>
+                    <TextBox x:Name="ShortRouteRunningTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Short Throw Accuracy:" Margin="1"/>
+                    <TextBox x:Name="ShortThrowAccuracyTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Spin Move:" Margin="1"/>
+                    <TextBox x:Name="SpinMoveTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Stamina:" Margin="1"/>
+                    <TextBox x:Name="StaminaTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Spectacular Catch:" Margin="1"/>
+                    <TextBox x:Name="SpectacularCatchTextBox" Width="25" Margin="1" Text="0" />
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Stiff Arm:" Margin="1"/>
+                    <TextBox x:Name="StiffArmTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Trucking:" Margin="1"/>
+                    <TextBox x:Name="TruckingTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Throw Under Pressure:" Margin="1"/>
+                    <TextBox x:Name="ThrowUnderPressureTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Throwing On Run:" Margin="1"/>
+                    <TextBox x:Name="ThrowingOnTheRunTextBox" Width="25" Margin="1" Text="0" />
+
+
+                    <TextBlock Text="Zone Coverage:" Margin="1"/>
+                    <TextBox x:Name="ZoneCoverageTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Height:" Margin="1"/>
+                    <TextBox x:Name="HeightTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Weight:" Margin="1"/>
+                    <TextBox x:Name="WeightTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="Max Weight:" Margin="1"/>
+                    <TextBox x:Name="MaxWeightTextBox" Width="25" Margin="1" Text="0" />
+
+                    <TextBlock Text="MaxHeight:" Margin="1"/>
+                    <TextBox x:Name="MaxHeightTextBox" Width="25" Margin="1" Text="0" />
+                </StackPanel>
+
+
+                <!-- Configuration name input -->
+                <TextBlock Text="Configuration Name:" Margin="5"/>
+                <TextBox x:Name="ConfigurationNameTextBox" Width="300" Margin="1"/>
+
+
+
+
+
+                <!-- OK button -->
+                <Button Content="OK" Click="OKButton_Click" HorizontalAlignment="Center" Margin="10"/>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>
