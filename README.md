@@ -1,61 +1,50 @@
 # XXV-Rate-CFB
 
-Disclaimer: These tools rely on access to cfb.fan datasets and infrastructure. mut.GG/cfb.fan are a wonderful community resource, You can support them directly by going #pro if you can.
-
-
 
 ### Disclaimer
 
-* These tools rely on access to cfb.fan datasets and infrastructure. mut.GG/cfb.fan are a wonderful community resource, You can support them directly by going #pro if you can.
+* These tools rely on access to cfb.fan datasets and infrastructure. Mut.gg and Cfb.fan are wonderful community resources, You can support them directly by going #pro if you can.
 
 ### Description
 
-* An in-depth paragraph about your project and overview of use.
+* College Ultimate team ratings tool. Initially planned as a web app for M24, this is meant to serve as a modern replacement for MUTRank. Users define the formula used for calculation, Rerate players based on what you value most. This is a P.O.C/Prototype release, and as such is relativly barebones at the moment.
 
-### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+### Completed
 
-### Executing program
+* Run calculations against all player stats (including height and weight). Basic filtering (team, position, chem, archtype, ovr). For height and weight, define max values, which will scale against your player data.
+* Basic .fan integration. Double click a player to open the players listing on cfb.fan. Left click one player than right click another to compare.
+* Mpderm interface design styilzed to look and feel of game.
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+## TODO
 
-## Help
+* Fix dataset (.fan is currently still missing some data, some of our rips didn't run proper, etc)
+* Add autoupdater (checks against current cfb.fan dataset and only rip new additions)
+* Add filtering by abilitys
+* Add filtering by stats
+* Add threshold weighting system for calculations
+* Add ratings formulas
+* Add formula selection, allowing users to preset and quickly change between formulas
+* Add ability system for calculations
+* Add player traits for calculations
+* Optimization, tool is currently very slow/clunky due to size of dataset and inefficencys (Nearly 8k players as of now vs 4k? current for m24)
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+## COMMENTS 
+* This is meant to supplemant cfb.fan / mut.gg, not to replace them. This tool cannot function without access to there datasets, which could change at any time. If you wish for this tool to remain functional, sub to #pro and support gg/fan.
+* As far as ratings formulas, we will not be putting out any stock formulas for CFB25. That will be left up to community/end user. Without access to gamedata, our guess is honestly as good as your's there. We could surely make inferances based off madden, but we like hard data.
+* This may also release for madden 25 if community intrest is reasonable. Long term plans on that end would be to integrate actual gameplay curve data, which would serve as a more user freindly form of our vault project from 24/lay against actual player data this time around.
+* Community contributions are welcome.
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+ML Team
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
 * 0.1
-    * Initial Release
+    * Prototype release
 
-## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+## Special Thanks
 
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+To Jrjay1 for initial react design
