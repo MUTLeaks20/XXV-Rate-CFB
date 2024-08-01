@@ -23,7 +23,6 @@
 * Add filtering by abilitys
 * Add filtering by stats
 * Add threshold weighting system for calculations
-* Add ratings formulas
 * Add formula selection, allowing users to preset and quickly change between formulas
 * Add ability system for calculations
 * Add player traits for calculations
